@@ -1,5 +1,5 @@
 import axios from "axios"
 
 export const apiCidadeIP = axios.create({
-  baseURL:'ipinfo.io/json'
+  baseURL:'https://ipinfo.io/json'
 })
