@@ -52,7 +52,7 @@ setlista(cidadesSalvas)
     console.log(responseCity.data.city)
     setWeather(response.data)
 
-    alert(responseCity.data.query)
+    //alert(responseCity.data.query)
 
   }
 
