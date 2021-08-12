@@ -42,6 +42,7 @@ setlista(cidadesSalvas)
 
 
   }
+ 
 
   async function handleGetCidadeIP() {
 
@@ -51,7 +52,7 @@ setlista(cidadesSalvas)
     console.log(responseCity.data.city)
     setWeather(response.data)
 
-
+    alert(responseCity.data.query)
 
   }
 
