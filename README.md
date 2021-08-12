@@ -1,3 +1,7 @@
+https://clever-babbage-0c3fef.netlify.app/
+
+Melhorado por mim, ele busca o ip do usuario verifica a cidade,  retorna os dados referente a cidade e grava em localstorage as cidades buscadas
+
 # CASE WEB APP DE PREVISÃO DO TEMPO
 
 - [x] Node.js
@@ -16,7 +20,7 @@
 - [x] Realizar chamada à API assim que componente for montado (cidade padrão)
 - [x] Estilização
 # Como evoluir a aplicação
-- [] Input de texto para pesquisar cidade
-- [] Possibilitar a usuário armazenar cidades preferidas/padrão
-- [] Melhorar interface para web
-- [] Hospedar aplicação no Netlify
+- [X] Input de texto para pesquisar cidade
+- [X] Possibilitar a usuário armazenar cidades preferidas/padrão
+- [X] Melhorar interface para web
+- [X] Hospedar aplicação no Netlify
