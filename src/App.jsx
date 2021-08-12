@@ -46,14 +46,8 @@ setlista(cidadesSalvas)
 
   async function handleGetCidadeIP() {
 
-   let ip
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("GET", 'http://meuip.com/api/meuip.php');
-    xmlhttp.send();
-    xmlhttp.onload = function(e) {
-    ip = xmlhttp.response
-    }
-    const responseCity = await apiCidadeIP.get(ip)
+   
+    const responseCity = await apiCidadeIP.get()
     const response = await apiClima.get(responseCity.data.city)
     setCity(responseCity.data.city)
     console.log(responseCity.data.city)
